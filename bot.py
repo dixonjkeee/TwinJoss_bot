@@ -11,9 +11,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Замените на токен от @BotFather
-WEBAPP_URL = "YOUR_WEBAPP_URL_HERE"  # Замените на URL вашего Web App
-ADMIN_CHAT_ID = "YOUR_ADMIN_CHAT_ID"  # ID для получения заказов (опционально)
+BOT_TOKEN = "6569219113:AAGPzTu9VmAxrvwYUd0VNaijQokRSk8eR5c"  # Замените на токен от @BotFather
+WEBAPP_URL = "https://twin-joss-bot.vercel.app"  # Замените на URL вашего Web App
+ADMIN_CHAT_ID = "848708495"  # ID для получения заказов (опционально)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Обработчик команды /start"""
